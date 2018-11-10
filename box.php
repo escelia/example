@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -9,7 +10,7 @@ $code = intval($_GET['code']);
 $message = "your code is $code";
 $message = wordwrap($message, 70);
 mail('zbatool@brynmawr.edu','Zainab is the bestest',$message);
-header('Location: example/test.php');  
+header('Location: default.html');  
 ?>
 
 </body>
