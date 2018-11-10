@@ -5,12 +5,11 @@
 <h1>My first PHP success</h1>
 
 <?php
-$message = "truer words have never been written";
+$code = intval($_GET['code']);  
+$message = "your code is $code";
 $message = wordwrap($message, 70);
 mail('zbatool@brynmawr.edu','Zainab is the bestest',$message);
-header('Location: box.php');
-  
-$code = intval($_GET['code']);   
+header('Location: box.php');  
 print "code is $code";
 ?>
 
