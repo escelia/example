@@ -9,7 +9,7 @@ $code = intval($_GET['code']);
 $message = "your code is $code";
 $message = wordwrap($message, 70);
 mail('zbatool@brynmawr.edu','Zainab is the bestest',$message);
-header('Location: box.php');  
+header('Location: test.php');  
 print "code is $code";
 ?>
 
