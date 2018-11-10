@@ -3,5 +3,7 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /default.html
+  script: default.html
 - url: /.*
   script: box.php
